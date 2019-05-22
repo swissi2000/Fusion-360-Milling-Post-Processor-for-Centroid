@@ -1,0 +1,28 @@
+;------------------------------------------------------------------------------
+; File: mfunc6.mac - modified by -swissi
+; Purpose: Tool change macro for Acorn - Extended Information Diplay
+; Name: -swissi
+; Date: 16 October 2018
+; Modified: 
+; Associated SRC code: Acorn-universal.src
+; Require CNC12 4.12+
+;
+; Variables used: 
+  #101 = 0 ;Length of time to display M225 messages
+ 
+;------------------------------------------------------------------------------
+
+IF #50001                         			;Force lookahead to stop processing 
+IF #4201 || #4202 THEN GOTO 1000   			;Skip when graphing or searching
+
+IF #50001                         			;Force lookahead to stop processing 
+M5                                          ;Turn off spindle
+
+IF #50001                         			;Force lookahead to stop processing
+G53 Z0                                      ;Retract Z
+
+IF #50001									;Force lookahead to stop processing                          			
+
+M225 #101 "#)Insert Tool #%.0f\n\nCNC12: T%.0f  D=%.3f  Height-Offset=%.3f\nFusion : %s\n%s\n\nFlutes=%s  Spindle Speed=%s %s  Cooling=%s\n\nWOC=%s  DOC=%s  Feed per Tooth=%s  Feed per Rev=%s\n\nFeed=%s  Ramp=%s  Plunge=%s\n\n      Press Cycle Start to continue\n" #4120 #4120 #[11000 + #4120] #[10000 + #4120] #300 #314 #311 #315 #316 #312 #317 #318 #320 #323 #319 #321 #322
+
+N1000                                       ;End of macro  
