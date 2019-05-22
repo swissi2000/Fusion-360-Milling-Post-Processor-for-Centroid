@@ -44,7 +44,9 @@ Property: Add Command to Begin of Job = M98 "C:\cncm\ncfiles\begin.cnc"
 Property: Add Command to End of Job   = M98 "C:\cncm\ncfiles\end.cnc"
 Property: Write CNC12 Info Variables  = Yes
 ```
-Get the files *begin.cnc* and *end.cnc* from the [Repository](https://github.com/swissi2000/Test) and copy them to the *C:\cncm\ncfiles* folder.
+Get the files *begin.cnc* and *end.cnc* from the [Repository](https://github.com/swissi2000/Fusion-360-Milling-Post-Processor-for-Centroid) and copy them to the *C:\cncm\ncfiles* folder. 
+
+As an alternative, you can use the files *mfunc51.mac* and *mfunc52.mac* from the [Repository](https://github.com/swissi2000/Fusion-360-Milling-Post-Processor-for-Centroid) and copy them to the *C:\cncm* folder (replace the existing files) and then add a *M51* to *Begin of Job* and a *M52* to the *End of Job*.
 
 When running a job in CNC12 that was created with these Property settings, CNC12 will present an Info Message when the *Cycle Start* button is pressed:
 

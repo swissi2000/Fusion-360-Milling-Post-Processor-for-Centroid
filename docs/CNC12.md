@@ -184,7 +184,7 @@ N7205 #326 = ""
 Macros can be used to display the information from the User-String-Variables.
 
 ### Customized Tool Change Macro
-Copy the example mfunc6.mac file from the [Repository](https://github.com/swissi2000/Test) to the *C:\cncm\* folder. A M6 tool change will now provide the following additional information:
+Copy the example mfunc6.mac file from the [Repository](https://github.com/swissi2000/Fusion-360-Milling-Post-Processor-for-Centroid) to the *C:\cncm* folder. A M6 tool change will now provide the following additional information:
 
 ![](/images/pp020.PNG)
 
