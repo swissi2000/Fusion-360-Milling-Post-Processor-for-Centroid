@@ -9,7 +9,7 @@ There are two options available, a *M0* stop or a *M200* message. Both need to b
 
 ## Implementation Details
 ### Option M0
-This option will add an *M0* command after each Tool Offset move. If */Skips* in CNC12 is not *On*, the job execution will stop to allow for the verification of the correct distanceand between tool tip and *Z0-Point*. Continuation needs to be confirmed with a *Cycle Start*. 
+This option will add an *M0* command after each Tool Offset move. If */Skips* in CNC12 is not *On*, the job execution will stop to allow for the verification of the correct distance between tool tip and *Z0-Point*. Continuation needs to be confirmed with a *Cycle Start*. 
 
 The job file will look like this:
 
