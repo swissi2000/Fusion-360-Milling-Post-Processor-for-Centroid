@@ -1,14 +1,13 @@
 ;------------------------------------------------------------------------------
 ; File: mfunc6.mac - modified by -swissi
 ; Purpose: Tool change macro for Acorn - Extended Information Diplay
+;          Requires the Fusion 360 Post Processor Property "Write CNC12 Info Variables" to be enabled
 ; Name: -swissi
-; Date: 16 October 2018
-; Modified: 
-; Associated SRC code: Acorn-universal.src
-; Require CNC12 4.12+
+; Date: 22 March 2020
+; Require CNC12 4.16+
 ;
 ; Variables used: 
-  #101 = 0 ;Length of time to display M225 messages
+#101 = 0 ;Length of time to display M225 messages
  
 ;------------------------------------------------------------------------------
 

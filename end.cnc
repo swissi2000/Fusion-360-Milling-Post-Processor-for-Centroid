@@ -12,7 +12,7 @@
 ; #29956 - Total time in seconds - User variable
 ;------------------------------------------------------------------------------
 
-IF #50010                        ;Prevent lookahead from parsing past here
+IF #50001                        ;Prevent lookahead from parsing past here
 IF #4201 || #4202 THEN GOTO 1000 ;Skip macro if graphing or searching
 
 #29952 = #25012 ; - ending time- when the program is finished

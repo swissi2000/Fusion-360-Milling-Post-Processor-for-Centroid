@@ -9,7 +9,7 @@
 #101 = 0  ; How many seconds a message should be displayed. 0 is indefinitely and needs to be confirmed with Cycle Start
 ;------------------------------------------------------------------------------
 
-IF #50010                        ;Prevent lookahead from parsing past here
+IF #50001                        ;Prevent lookahead from parsing past here
 IF #4201 || #4202 THEN GOTO 1000 ;Skip macro if graphing or searching
 
 N100

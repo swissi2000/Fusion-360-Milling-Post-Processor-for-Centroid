@@ -14,7 +14,7 @@ Possible options are:
 * No Move
 
 ## Implementation Details
-The default value is *G28*. Selecting *No Move* can be dangerous and is not recommended. Use it at yourt own risk!
+The default value is *G28*. Selecting *No Move* can be dangerous and is not recommended. Use it at your own risk!
 
 The coordinates of the *G28* and *G30* commands can be configured in CNC12 under *Setup[F1]->Part[F1]->WCS Table[F9]->Return[F1]*
 

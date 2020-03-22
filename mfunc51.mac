@@ -1,5 +1,5 @@
 ;------------------------------------------------------------------------------
-; Filename:mfunc51.mac
+; Filename: mfunc51.mac
 ; Description: Add to beginning of job to display Fusion 360 Job Information, open log file and start Job running time counter
 ; Notes: Add M51 to the beginning of Job to display Fusion 360 Information
 ; VARIABLES USED
@@ -8,7 +8,7 @@
 #101 = 0  ; How many seconds a message should be displayed. 0 is indefinitely and needs to be confirmed with Cycle Start
 ;------------------------------------------------------------------------------
 
-IF #50010                        ;Prevent lookahead from parsing past here
+IF #50001                        ;Prevent lookahead from parsing past here
 IF #4201 || #4202 THEN GOTO 1000 ;Skip macro if graphing or searching
 
 N100
