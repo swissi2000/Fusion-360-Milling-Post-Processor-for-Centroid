@@ -15,7 +15,7 @@ IF #4201 || #4202 THEN GOTO 1000 ;Skip macro if graphing or searching
 N100
 
 ; Display Job Info
-M225 #101 "#)CAM File  : %s\nPrg Name: %s\nComment: %s\n\nSetup: %s\n%s\n\nOrigin Point (Part 0): %s  WCS: %s\n\nTools needed (List limited to first 10 Tools):\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n\n                 Press Cycle Start to continue\n" #301 #302 #303 #304 #305 #324 #326 #351 #352 #353 #354 #355 #356 #357 #358 #359 #360
+M225 #101 "#)CAM File  : %s\nPrg Name: %s\nComment: %s\n\nSetup: %s\n%s\n\nOrigin Point (Part 0): %s  WCS: %s\n\nTools needed (List limited to first 10 Tools):\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n\n                 Press Cycle Start to continue\n" #331 #302 #303 #304 #305 #324 #326 #351 #352 #353 #354 #355 #356 #357 #358 #359 #360
 
 ; Open the log file and record Date, Time and CAM File name with Version Number. 
 ; File end.cnc required at the end of job to record total runtime 
@@ -23,7 +23,7 @@ M225 #101 "#)CAM File  : %s\nPrg Name: %s\nComment: %s\n\nSetup: %s\n%s\n\nOrigi
 M121 "#302.log" ;opens the log file with the same name as the Program Name in the same directory. Will create file if it doesn't exist
 M223 "Run Date: " 
 M127  ;Writes Date and Time to log file
-M223 "Based on CAM File: %s\n" #301
+M223 "Based on CAM File: %s\n" #331
 
 N1000
 M99  ; Return to calling job/macro
