@@ -8,8 +8,10 @@ CNC12 offers 100 internal *User-String-Variables* that can be used by macros dur
 If this *Property* is enabled, the Post Processor will fill *User-String-Variables* with Information from Fusion 360 that can be used within CNC12. By default, the following information will be written to the job file (click the variable name/number for more details from where in Fusion 360 the information is coming from):
 
 ### File, Setup and Tool Path Information
-* [#300](300.md) Tool Info from the Fusion 360 Tool Library. Updated before each Tool Change
-* [#301](301.md) Fusion 360 Design File Name. Defined at the beginning and does not change
+Note: In v3 the following changes had to be made: #300 was moved to #330, #301 to #331
+
+* [#330](330.md) Tool Info from the Fusion 360 Tool Library. Updated before each Tool Change (was #300 in V1&2)
+* [#331](331.md) Fusion 360 Design File Name. Defined at the beginning and does not change (was #301 in V1&2)
 * [#302](302.md) Fusion 360 Program Name/Number as specified in the Post Window
 * [#303](302.md) Fusion 360 Program comment as specified in the Post Window
 * [#304](304.md) Fusion 360 Setup Name. Changes for each Setup in the Post
@@ -184,7 +186,7 @@ N7205 #326 = ""
 Macros can be used to display the information from the User-String-Variables.
 
 ### Customized Tool Change Macro
-Copy the example mfunc6.mac file from the [Repository](https://github.com/swissi2000/Fusion-360-Milling-Post-Processor-for-Centroid) to the *C:\cncm* folder. A M6 tool change will now provide the following additional information:
+Copy the example mfunc6.mac file from the [Repository](https://github.com/swissi2000/Test) to the *C:\cncm\* folder. A M6 tool change will now provide the following additional information:
 
 ![](/images/pp020.PNG)
 
