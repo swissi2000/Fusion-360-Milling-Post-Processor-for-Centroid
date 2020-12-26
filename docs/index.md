@@ -9,6 +9,9 @@ Using the Post Processor Properties to write Fusion 360 Information to CNC12 var
 
 **Please report issues on the [Centroid Forum](https://centroidcncforum.com/viewtopic.php?f=60&t=2992). No Warranties are given. Use at your own risk!**
 
+# New Version V4 (December 26th 2020)
+* Just a bug fix where the WCS# always defaulted to G54 ignoring other WCS#'s in setups. Update to latest version if you are using other WCS#'s than the default G54.
+
 # Added Features in V3
 * NEW in v3: [Fusion 360 Probing Support](probing.md)
 
