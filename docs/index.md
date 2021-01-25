@@ -26,8 +26,8 @@ Using the Post Processor Properties to write Fusion 360 Information to CNC12 var
 # Added Post Processor Properties
 These are the additional features that can be activated trough the Post Processor Properties
 
-* NEW in V5 [Check for conflicting Tool Numbers (same Number but different Tools)] (checkDuplicateTools.md)
-* NEW in V5 [Maximum allowed Number of Tools] (maxToolNumber.md)
+* NEW in V5 [Check for conflicting Tool Numbers (same Number but different Tools)](checkDuplicateTools.md)
+* NEW in V5 [Maximum allowed Number of Tools](maxToolNumber.md)
 * Added in v3 [Check/Update CNC12 Tool Library](checkLibrary.md)
 * Added in v3 [Reset Rotary Axis at End of Job](resetRotary.md)
 * Added in v2: [Safe Retracts](safeRetracts.md)
