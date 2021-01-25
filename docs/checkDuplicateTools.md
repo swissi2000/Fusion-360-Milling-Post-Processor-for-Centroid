@@ -1,8 +1,12 @@
 # Check for conflicting Tool Numbers
 
+![](/images/pp059.PNG)
+
 ## Description
 Additional logic has been added to the Post Processor that checks for conflicting Tool Information e.g. using the same Tool Number but with different geometry.
 
+With Version v5, this has been made a Post Processor Property that can be switched on and off as some users are using the same tool with different geometry settings.
+The default settings is switched on.
 
 ## Implementation Details
 This code has been added to the *onOpen()* section of the Post Processor:
