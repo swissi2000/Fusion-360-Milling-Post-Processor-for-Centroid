@@ -21,15 +21,15 @@ Using the Post Processor Properties to write Fusion 360 Information to CNC12 var
 * ***Update January 25th 2021: It turned out this issue was caused by a bug in Fusion 360 and has been fixed in the latest version***
 
 # Added Features in V3
-* NEW in v3: [Fusion 360 Probing Support](probing.md)
+* Added in v3: [Fusion 360 Probing Support](probing.md)
 
 # Added Post Processor Properties
 These are the additional features that can be activated trough the Post Processor Properties
 
 * NEW in V5 [Check for conflicting Tool Numbers (same Number but different Tools)] (checkDuplicateTools.md)
 * NEW in V5 [Maximum allowed Number of Tools] (maxToolNumber.md)
-* NEW in v3 [Check/Update CNC12 Tool Library](checkLibrary.md)
-* NEW in v3 [Reset Rotary Axis at End of Job](resetRotary.md)
+* Added in v3 [Check/Update CNC12 Tool Library](checkLibrary.md)
+* Added in v3 [Reset Rotary Axis at End of Job](resetRotary.md)
 * Added in v2: [Safe Retracts](safeRetracts.md)
 * Added in v2: [Smoothing Profile](smoothingProfile.md)
 * [Add Command to Begin/End of Job](addCommand.md)
@@ -50,7 +50,7 @@ These are the additional features that can be activated trough the Post Processo
 Additional logic has been added to the Post Processor to support
 
 * NEW in v5: Added logic to prevent the use of Program Numbers 9100-9999 as they are reserved for CNC12 
-* NEW in v3: Improved Rotary Axis Support 
+* Added in v3: Improved Rotary Axis Support 
 * Added in v2: [Using Inverse Time Feedrate for Rotary Axis](inverseTime.md)
 * [Support for Manual NC Commands](manualNC.md)
 
