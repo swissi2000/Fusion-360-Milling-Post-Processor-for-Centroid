@@ -5,6 +5,8 @@
 ## Description
 This Property allows to modify the X and Y-Axis return position at the end of a job. 
 
+**Note:** This option does not work if a *Machine Profile* is being used as the Profile is setting the Machine Coordinates (G53) of the resturn position for the X and Y axis at the end of the job.
+
 Possible options are:
 
 * G28

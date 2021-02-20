@@ -39,7 +39,7 @@ These are the additional features that can be activated trough the Post Processo
 * [Comment Line Formatting](commentFormatting.md)
 * [Dwell after Spindle Start](enableDwell.md)
 * [Enforce Numeric Program Name](forceNumeric.md)
-* [XY-Position at End of Job](xyPosition.md)
+* [XY-Position at End of Job (does not work if Machine Profile is being used)](xyPosition.md)
 * [Z-Position at End of Job](zPosition.md)
 * [Rotary Table Axis](rotaryAxis.md)
 * [Write CNC12 Info Variables](CNC12.md)
